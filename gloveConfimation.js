@@ -67,23 +67,23 @@ $(document).ready(function () {
         pulgar: objetoJS["Pulgar-1"],
         precio: objetoJS["precio"],
         images: [
-          {
-            image: "https://lh3.googleusercontent.com/d/" + new URL(objetoJS["Image-1"]).searchParams.get("id"),
-            alt: "vista 1",
-          },
-          {
-            image: objetoJS["Image-2"].replace("uc?id", "thumbnail?id"),
-            alt: "vista 2",
-          },
-          {
-            image: objetoJS["Image-3"].replace("uc?id", "thumbnail?id"),
-            alt: "vista 3",
-          },
-          {
-            image: objetoJS["Image-4"].replace("uc?id", "thumbnail?id"),
-            alt: "vista 4",
-          },
-        ],
+  {
+    image: "https://lh3.googleusercontent.com/d/" + new URL(objetoJS["Image-1"]).searchParams.get("id"),
+    alt: "vista 1",
+  },
+  {
+    image: "https://lh3.googleusercontent.com/d/" + new URL(objetoJS["Image-2"]).searchParams.get("id"),
+    alt: "vista 2",
+  },
+  {
+    image: "https://lh3.googleusercontent.com/d/" + new URL(objetoJS["Image-3"]).searchParams.get("id"),
+    alt: "vista 3",
+  },
+  {
+    image: "https://lh3.googleusercontent.com/d/" + new URL(objetoJS["Image-4"]).searchParams.get("id"),
+    alt: "vista 4",
+  },
+],
       };
       createGalleryItem(galleryItem);
     } else {
