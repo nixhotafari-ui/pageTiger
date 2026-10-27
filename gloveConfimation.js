@@ -68,7 +68,7 @@ $(document).ready(function () {
         precio: objetoJS["precio"],
         images: [
           {
-            image: objetoJS["Image-1"],
+            image: objetoJS["Image-1"].replace("uc?id", "thumbnail?id"),
             alt: "vista 1",
           },
           {
